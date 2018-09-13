@@ -6,7 +6,6 @@ const PORT = process.env.PORT || 8888;
 io.on('connection', (socket) => {
     const interval = setInterval(() => {
         socket.emit('pinguin', 'Dmitry Guselnikov is a man');
-        console.log('the ping was sent');
     }, 4000);
 
     socket.on('disconnect', () => {
