@@ -1,6 +1,5 @@
 const server = require('http').createServer();
 const io = require('socket.io')(server);
-
 const PORT = process.env.PORT || 8888;
 
 io.on('connection', (socket) => {
