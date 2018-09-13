@@ -1,0 +1,23 @@
+{
+  "name": "pinguin",
+  "version": "1.0.0",
+  "description": "test socket.io server for socket.io-android testing",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muturgan/pinguin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muturgan/pinguin/issues"
+  },
+  "homepage": "https://github.com/muturgan/pinguin#readme",
+  "dependencies": {
+    "socket.io": "^2.1.1"
+  }
+}
