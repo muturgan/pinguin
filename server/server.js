@@ -10,6 +10,10 @@ io.on('connection', (socket) => {
     socket.on('disconnect', () => {
         clearInterval(interval);
     });
+
+    socket.on('testing event', (data) => {
+        socket.emit('testing success', {overheared: data.message, reaction: 'fuck yeah!'});
+    });
 });
 
 server.listen(PORT, () => {
